@@ -46,7 +46,7 @@ const Footer = () =>{
 
   return(
   
-      <footer style={styles.footer}>Jonathan Brown - April 2022</footer>
+      <footer style={styles.footer}><p>Jonathan Brown - April 2022</p></footer>
     
 
   );
@@ -94,6 +94,7 @@ const styles = {
     footer: {
       backgroundColor:'#981A1A',
       color: '#F2EAEA',
+    
       
     },
     header: {
